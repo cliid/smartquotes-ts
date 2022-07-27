@@ -1,2 +1,10 @@
 test/
 src/
+yarn-error.log
+smartquotes-ts.code-workspace
+.eslintcache
+.eslintrc.js
+.eslintignore
+.nyc_output
+.husky
+tsconfig.json

@@ -1,6 +1,6 @@
 {
   "name": "smartquotes-ts",
-  "version": "2.3.2",
+  "version": "0.0.1",
   "author": "Jiwu Jang <cliid@pm.me>",
   "contributors": [
     "Jiwu Jang",
@@ -10,8 +10,8 @@
   "description": "Smart quotes are smart typography.",
   "homepage": "http://github.com/cliid/smartquotes-ts",
   "license": "MIT",
-  "main": "dist/smartquotes.js",
-  "types": "types/smartquotes.d.ts",
+  "main": "dist/es2015/index.js",
+  "types": "dist/es2015/index.d.ts",
   "keywords": [
     "smart",
     "quotes",
