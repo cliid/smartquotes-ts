@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"eslint.alwaysShowStatus": true,
+		"[javascript,typescript]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"typescript.updateImportsOnFileMove.enabled": "always",
+		"javascript.updateImportsOnFileMove.enabled": "always",
+		"eslint.validate": [
+			"javascript",
+			"typescript"
+		],
+		"editor.codeActionsOnSave": {
+			"source.fixAll": true
+		},
+		"files.exclude": {
+			"node_modules": true
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"sainnhe.gruvbox-material",
+			"dbaeumer.vscode-eslint",
+			"pkief.material-icon-theme"
+		]
+	}
+}
