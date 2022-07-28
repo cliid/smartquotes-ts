@@ -1,7 +1,11 @@
 {
   "name": "smartquotes-ts",
-  "version": "0.0.1",
-  "author": "Jiwu Jang <cliid@pm.me>",
+  "version": "0.0.2",
+  "author": {
+    "name": "Jiwu Jang",
+    "email": "cliid@pm.me",
+    "url": "https://cliid.dev/"
+  },
   "contributors": [
     "Jiwu Jang",
     "Kelly Martin",
@@ -10,8 +14,8 @@
   "description": "Smart quotes are smart typography.",
   "homepage": "http://github.com/cliid/smartquotes-ts",
   "license": "MIT",
-  "main": "dist/es2015/index.js",
-  "types": "dist/es2015/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
   "keywords": [
     "smart",
     "quotes",
