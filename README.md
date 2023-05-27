@@ -21,8 +21,7 @@ are equivalent.
 ```typescript
 import smartquotes from 'smartquotes-ts';
 
-const myString = smartquotes('This is my "smart-quoted" string.');
-const myString2 = smartquotes.string('This is the "same" thing.');
+const myString = smartquotes.string('This is the "same" thing.');
 ```
 
 ### What are smart quotes?
