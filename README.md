@@ -1,22 +1,21 @@
 smartquotes-ts
 ==============
 
-TypeScript version of <a href="https://github.com/kellym/smartquotes.js">smartquotes.js</a>.
+typescript version of [smartquotes.js](https://github.com/kellym/smartquotes.js).
 
-> Smart quotes are smart typography, and now it’s just a ’script away.
+> smart quotes are smart typography, and now it’s just a ’script away.
 
-### Installation
+### installation
 
-`smartquotes-ts` is available in npm.
+you can grab `smartquotes-ts` from npm (or pnpm, or yarn):
 
-```
+```bash
 npm install smartquotes-ts
 ```
 
-### Usage
+### usage
 
-Import the script and pass it a string, or use the `string` method. Both
-are equivalent.
+import it, then pass in a string or use the `string` method. both work the same:
 
 ```typescript
 import smartquotes from 'smartquotes-ts';
@@ -24,28 +23,26 @@ import smartquotes from 'smartquotes-ts';
 const myString = smartquotes.string('This is the "same" thing.');
 ```
 
-### What are smart quotes?
+### what are smart quotes?
 
-“Smart quotes,” or “curly quotes,” are the proper typographical way to represent quotation marks. Unfortunately, in order to save space on the keyboard, the dumb quote was created. Smartquotes.js is here to convert all your dumb quotes back to smart ones.
+“smart quotes” or “curly quotes” are the correct typographical way to show quotes. dumb quotes (straight quotes) were invented to save space on the keyboard, but they’re pretty ugly. `smartquotes-ts` fixes all those dumb quotes for you automatically.
 
-#### Why should I use smart quotes?
+#### why use smart quotes?
 
-Smart quotes are the correct way. They increase legibility and professionalism. Dumb quotes are for the lazy person. Dumb quotes are unprofessional. And now you have no excuse not to use smart quotes.
+because they're the right way to do it. they make your text more readable and professional. dumb quotes? they’re for lazy coding, and you don’t want that. now you’ve got no excuse not to use smart quotes.
 
-#### What about measurements? What quotes do I use?
+#### what about measurements?
 
-Measurements use what are called “primes.” `smartquotes-ts` handles those too.
+measurements use “primes” instead of quotes. `smartquotes-ts` handles that for you too.
 
-#### Okay, so what about a backwards apostrophe?
+#### what about backwards apostrophes?
 
-Technically, words that are shortened at the beginning require a backwards apostrophe. There’s only so much a script can do by itself, though. Smartquotes.js tries to catch what it can, namely abbreviated years like ’13 and places like the ’burbs, but in the cases that it can’t—there’s not much ’splainin’ to do—just use &rsquo; or try wrapping the word in a <span> tag.
+technically, when you shorten a word at the beginning, you need a backwards apostrophe. `smartquotes-ts` does its best to catch these, like in years (’13) or places (the ’burbs). if it misses, just use `&rsquo;` or wrap it in a `<span>` tag to force it.
 
-#### What do I need to change in my code?
+### do i need to change anything?
 
-`smartquotes-ts` doesn’t have any dependencies and can be used by itself.
+nope. `smartquotes-ts` has zero dependencies. you can drop it into your project and it works on its own.
 
-## Contributing
+## contributing
 
-If you find bugs or additions to the code, the best way to contribute is to fork this repo, make the changes (without updating version numbers), and make a pull request back to this repo to be merged in.
-
-Be sure to add any necessary tests and run `npm test` before opening a PR.
+if you find bugs or improvements, fork the repo, make your changes (don’t touch the version numbers), and open a pull request. make sure you add any needed tests and run `npm test` before opening the PR.
